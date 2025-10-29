@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+#start-screen {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#game-container {
+  display: none;
+}
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
